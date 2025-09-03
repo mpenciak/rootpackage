@@ -1,0 +1,10 @@
+[package]
+name = "rootpackage"
+type = "bin"
+authors = [""]
+
+[dependencies]
+package1 = { tag = "main", git = "https://github.com/mpenciak/package1" }
+package2 = { tag = "main", git = "https://github.com/mpenciak/package2" }
+package3 = { path = "../package3" }
+package4 = { path = "../package4" }
