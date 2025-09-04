@@ -4,16 +4,13 @@ import Lampe
 
 open Lampe
 
-namespace «package3-0.0.0»
-namespace Extracted
-
-noir_struct_def StructThree<> {
+noir_struct_def «package3-0.0.0»::StructThree<> {
   Field,
 }
 
-noir_type_alias TypeThree<> := Field;
+noir_type_alias «package3-0.0.0»::TypeThree<> := Field;
 
-noir_trait_def TraitThree<> [] := {
+noir_trait_def «package3-0.0.0»::TraitThree<> [] := {
   method method_three<>(Self) -> Field;
 }
 

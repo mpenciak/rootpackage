@@ -5,19 +5,16 @@ import Lampe
 
 open Lampe
 
-namespace «package3-0.0.0»
-namespace Extracted
-
-noir_trait_impl[impl_430]<> TraitThree<> for StructThree<> where [] := {
-  noir_def method_three<>(self: StructThree<>) -> Field := {
+noir_trait_impl[impl_430]<> «package3-0.0.0»::TraitThree<> for «package3-0.0.0»::StructThree<> where [] := {
+  noir_def method_three<>(self: «package3-0.0.0»::StructThree<>) -> Field := {
     self.0
   };
 }
 
-noir_def function_three<>(input: Field) -> StructThree<> := {
-  (#_makeData returning StructThree<>)(input)
+noir_def «package3-0.0.0»::function_three<>(input: Field) -> «package3-0.0.0»::StructThree<> := {
+  (#_makeData returning «package3-0.0.0»::StructThree<>)(input)
 }
 
 def Lib.env : Env := Env.mk
-  [function_three]
+  [«package3-0.0.0::function_three»]
   [impl_430]
