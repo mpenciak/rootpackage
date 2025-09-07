@@ -4,3 +4,9 @@
 [submodule "package2"]
 	path = package2
 	url = git@github.com:mpenciak/package2.git
+[submodule "transitive_package21"]
+	path = transitive_package21
+	url = git@github.com:mpenciak/transitive_package21.git
+[submodule "transitive_package41"]
+	path = transitive_package41
+	url = git@github.com:mpenciak/transitive_package41.git

@@ -1,0 +1,6 @@
+[package]
+name = "transitive_package22"
+type = "lib"
+authors = [""]
+
+[dependencies]

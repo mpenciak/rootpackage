@@ -4,3 +4,5 @@ type = "lib"
 authors = [""]
 
 [dependencies]
+transitive_package41 = { git = "https://www.github.com/mpenciak/transitive_package41" }
+transitive_package42 = { path = "../transitive_package42" }
